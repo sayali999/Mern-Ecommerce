@@ -1,0 +1,23 @@
+#header{
+    background: url('../Assets/banner-img-1.jpg') top/cover no-repeat;
+}
+
+.shop-btn {
+    background-color: white;
+    -ms-text-combine-horizontal: rgba(85,85,85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgba(85,85,85);
+}
+
+.shop-btn:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.header-text h1{
+    font-size: 60px;
+
+}
+

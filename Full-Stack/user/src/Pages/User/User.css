@@ -1,0 +1,7 @@
+#dashboard{
+   background-color:#edf1f5 !important
+}
+
+.nav .nav-item .nav-link.active{
+    color: rgb(209, 63, 63);
+}

@@ -1,0 +1,72 @@
+#offer{
+    background: url('../Assets/offer_img.jpg') center/cover no-repeat;
+}
+
+#offer .row{
+    min-height: 60vh;
+}
+
+.offer-content span{
+    font-size: 28px;
+}
+
+.offer-content h2{
+    font-size: 60px;
+
+}
+
+.offer-content .btn{
+   
+    background-color: #fff;
+    font-weight: bold;
+}
+
+#newsletter h2{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+
+#newsletter h2::before{
+    background-color: #000;
+        content: "";
+        height: 2px;
+        left: -100px;
+        position: absolute;
+        top: 17px;
+        width: 80px;
+    }
+    
+    #newsletter h2::after{
+        background-color: #000;
+        content: "";
+        height: 2px;
+        position: absolute;
+        right: -100px;
+        top: 17px;
+        width: 80px;
+    }
+
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+#newsletter p{
+    max-width: 600px;
+}
+
+#newsletter .btn{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+#newsletter .btn:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: red;
+}

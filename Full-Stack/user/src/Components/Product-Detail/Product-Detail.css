@@ -1,0 +1,55 @@
+.prod-size .btn
+{
+  border-color: black; 
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.prod-size .btn:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.prod-size .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.add-to-cart-btn .btn{
+    background-color: #dc3545;
+    width: 150px;
+    color: white;
+    border-color: #dc3545;
+}
+
+.quantity-btn{
+    display: flex;
+
+}
+
+.quantity-btn input{
+    width: 70px;
+    /* border: none; */
+    text-align: center;
+
+}
+.quantity-btn .btn{
+    background-color: black;
+    border-color: black;
+    color: white;
+
+}
+
+.quantity-btn .btn:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}

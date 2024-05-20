@@ -1,0 +1,47 @@
+.dt-layout-row {
+    margin: 5px;
+    display: flex;
+    align-content: center;
+} 
+
+.dt-layout-cell.dt-start {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.dt-layout-cell.dt-end {
+    display: flex;
+    justify-content: end;
+    
+}
+
+tfoot{
+    background-color: red;
+    display: none;
+}
+input#dt-search-0 {
+    margin-left: 5px;
+}
+
+
+.dt-layout-cell {
+    margin-top: 10px;
+    width: 100%;
+}
+.dt-length {
+    display: none;
+}
+
+
+.dt-paging.paging_full_numbers button {
+    background-color: transparent;
+    
+    border: none;
+    font-size: 15px;
+
+}
+
+button.dt-paging-button.current {
+    background-color: #428bca;
+    color: white;
+}

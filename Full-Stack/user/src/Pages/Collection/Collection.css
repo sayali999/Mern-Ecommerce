@@ -1,0 +1,69 @@
+.cat-filter .nav-item{
+margin-left: 30px;
+
+}
+
+.nav-item .nav-link {
+    position: relative;
+    margin-left: 10px;
+    color: black;
+}
+
+.cat-filter .nav-item:hover .nav-link span{
+    background-color: red;
+    border-color: red;
+    transition: all .3s ease 0s;
+}
+
+.cat-filter .nav-link span
+{
+    transition: all .3s ease 0s;
+    color: pink;
+    background-color: #fff;
+    border: 2px solid #888;
+    border-radius: 3px;
+    height: 15px;
+    left: -30px;
+    position: absolute;
+    width: 15px;
+    top: 12px;
+   
+}
+
+.accordion-item{
+    border: 0;
+    border-radius: 0;
+    
+}
+
+.accordion-item .accordion-header button{
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 1rem;
+    font-weight: 500
+}
+
+.accordion-item .accordion-header button:hover{
+    color: red;
+}
+
+.accordion-item .accordion-header button::after{
+    
+    /* transition: all .6s ease; */
+   background-size: 12px;
+   
+}
+
+.accordion-body a{
+    font-weight: 500;
+}
+
+.accordion-body a:hover{
+    color: red;
+
+}
+
+
+
+
+
